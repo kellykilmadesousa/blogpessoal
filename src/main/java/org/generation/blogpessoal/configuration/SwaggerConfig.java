@@ -23,15 +23,15 @@ public class SwaggerConfig {
 					.description("Projeto Blog Pessoal - Generation Brasil")
 					.version("v0.0.1")
 				.license(new License()
-					.name("Github Kelly Kilma")
-					.url("https://github.com/kellykilmadesousa"))
+					.name("Blog Pessoal Kelly Kilma")
+					.url("https://blogpessoalkelly.herokuapp.com/swagger-ui/index.html"))
 				.contact(new Contact()
 					.name("Blog Pessoal")
 					.url("http://localhost:8080")
 					.email("kellykilmadesousa@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
 					.description("Repositório do Blog Pessoal no Github")
-					.url("https://github.com/kellykilmadesousa/BLOCO2/tree/main/SPRING/blogPessoal"));
+					.url("https://github.com/kellykilmadesousa/blogpessoal"));
 	}
 
 	@Bean
